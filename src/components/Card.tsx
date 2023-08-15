@@ -1,6 +1,6 @@
-import React, { ReactNode } from 'react'
+import  { ReactNode } from 'react'
 import { motion } from 'framer-motion'
-import { textVariant2, headerVariants, } from '../constants/motion'
+import {  headerVariants, } from '../constants/motion'
 
 type Props = {
     text: string

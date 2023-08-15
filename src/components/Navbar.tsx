@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { NavLinks } from '../constants/index'
 import { Button } from './'
 import { AiOutlineMenu ,AiOutlineClose} from 'react-icons/ai'

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Main, Navbar, About, Services, Features, Footer } from './components'
 
 const App = () => {

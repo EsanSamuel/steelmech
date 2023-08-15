@@ -1,8 +1,8 @@
-import React from 'react'
+
 import { Button } from '.'
 import image1 from '../assets/img2.svg'
 import { motion } from 'framer-motion'
-import { textVariant2, headerVariants, } from '../constants/motion'
+import {  headerVariants, } from '../constants/motion'
 
 const Main = () => {
     return (

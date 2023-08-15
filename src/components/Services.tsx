@@ -1,9 +1,8 @@
-import React from 'react'
+
 import { Card } from '.'
-import { GrTechnology } from 'react-icons/gr'
 import { MdIndeterminateCheckBox } from 'react-icons/md'
 import { motion } from 'framer-motion'
-import { textVariant2, headerVariants, } from '../constants/motion'
+import {  headerVariants, } from '../constants/motion'
 
 const Services = () => {
     return (

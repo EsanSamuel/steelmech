@@ -1,7 +1,7 @@
-import React from 'react'
+
 import { footerLinks } from '../constants'
 import { motion } from 'framer-motion'
-import { textVariant2, headerVariants, } from '../constants/motion'
+import { textVariant2 } from '../constants/motion'
 
 type Props = {
   title: string
