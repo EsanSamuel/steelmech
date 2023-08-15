@@ -6,7 +6,7 @@ import { AiOutlineMenu ,AiOutlineClose} from 'react-icons/ai'
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     return (
-        <div className='w-full fixed left-0 top-0 px-5 py-7 about bg-[#dafcfc]'>
+        <div className='w-full fixed left-0 top-0 px-5 py-7  bg-[#dafcfc]'>
             <div className='flex justify-between'>
                 <h1 className='font-bold'>steelmech.</h1>
                 <ul className='flex gap-4 sm:flex hidden'>
