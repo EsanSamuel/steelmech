@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Cedarville+Cursive&family=Poppins:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+
+*::-webkit-scrollbar {
+  width: 7px
+}
+
+*::-webkit-scrollbar-thumb {
+  width: 7px;
+  background: #5C69BE;
+  border-radius: 10px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.about{
+  background: url(./assets/noise.png);
+}
