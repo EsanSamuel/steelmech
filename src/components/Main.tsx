@@ -13,7 +13,7 @@ const Main = () => {
             viewport={{ once: true, amount: 0.25 }}
             >
             <div className=''>
-                <motion.h1 className='text-[70px] pt-10 font-bold'>Your Partner for <br className='sm:flex hidden' /> every <span className='font-light'>tech </span>activities.</motion.h1>
+                <motion.h1 className='sm:text-[70px] text-[40px] pt-10 font-bold'>Your Partner for <br className='sm:flex hidden' /> every <span className='font-light'>tech </span>activities.</motion.h1>
                 <p className='sm:w-[600px] w-full'>Lorem Ipsum passage is: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 <div className='sm:mt-10 mt-7'>
                     <Button
