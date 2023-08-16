@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
             {nav && (
                     <div className='fixed top-0 w-full bg-[#dafcfc] left-0 '>
-                        <ul className=' p-10 border-b'>
+                        <ul className=' p-10 border-b border-[#5f5f5f]'>
                         {nav && <AiOutlineClose className='sm:hidden text-[30px] font-bold float-right ' onClick={()=> setNav(false)} />}
                         {NavLinks.map((nav) => (
                         <ul key={nav.id} className=' cursor-pointer'>
